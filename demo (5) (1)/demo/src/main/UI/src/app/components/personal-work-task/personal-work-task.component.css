@@ -1,0 +1,9 @@
+.header h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin: 30px;
+}

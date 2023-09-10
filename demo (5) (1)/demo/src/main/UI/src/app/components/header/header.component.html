@@ -1,0 +1,8 @@
+<header>
+    <h1>Task Tracker</h1>
+    <app-button 
+    color="{{ showAddTask ? '#FF6961' : '#FFD580' }}" 
+    text="{{ showAddTask ? 'Close' : 'Add' }}"
+    (btnClick)="toggleAddTask()">
+    </app-button>
+</header>

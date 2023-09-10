@@ -1,0 +1,27 @@
+.task {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    /* background-color: ;*/
+}
+
+.task h3, p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.icon-group fa-icon {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, #8543ff, #00ff62);
+}
+
+.apply-finish {
+    box-shadow: 0 0 20px #00ff00;
+}

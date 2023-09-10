@@ -1,0 +1,38 @@
+
+<form *ngIf="showEditTask" (ngSubmit)="onSubmit()">
+    <hr>
+    <h2 style="color:white;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 10px;"
+    >Edit Task {{ this.task }}</h2>
+
+    <div class="form-control">
+        <label for="text">Task</label>
+        <input type="text" name="text" id="text" placeholder="Add Task" [(ngModel)]="task">
+    </div>
+    <div class="form-control">
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date" [(ngModel)]="date">
+    </div>
+    <div class="form-control">
+        <label for="time">Time</label>
+        <input type="time" name="time" id="time" value="12:00" min="0:00" max="23:59" [(ngModel)]="time" required>
+    </div>
+    <div class="form-control form-control-check">
+      <label for="personal">Personal</label>
+      <input type="checkbox" name="personal" id="personal" [(ngModel)]="isPersonalTask" (change)="onTaskTypeChange()"/>
+      <label for="work">Work</label>
+      <input type="checkbox" name="work" id="work" [(ngModel)]="isWorkTask" (change)="onTaskTypeChange()"/>
+    </div>
+    <div class="form-control" *ngIf="showLocation">
+      <label>Location</label>
+      <input type="text" name="text" id="location" placeholder="Enter Location" [(ngModel)]="location">
+    </div>
+    <div class="form-control" *ngIf="showPriority">
+      <label>Priority</label>
+      <input type="number" name="priority" id="priority" [(ngModel)]="priority">
+    </div>
+    <input type="submit" value="Save Task" class="btn btn-block btn-add">
+</form>

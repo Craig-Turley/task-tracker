@@ -1,0 +1,10 @@
+<div class="search">
+  <div>
+    <input type="search" placeholder="Search Tasks" class="search-bar" [(ngModel)]="keyword">
+    <app-button text="Search" color="#ACDDDE" (btnClick)="searchTask()"></app-button>
+  </div>
+  <div>
+    <app-button text="Filter" (btnClick)="toggleFilterByType()"></app-button>
+    <app-button text="Clear" color="#C3ACDF" (btnClick)="clearSearch()"></app-button>
+  </div>
+</div>

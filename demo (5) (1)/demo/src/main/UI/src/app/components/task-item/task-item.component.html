@@ -1,0 +1,21 @@
+<div class="task" [ngClass]="{'gradient-background': applyGradient, 'apply-finish':applyFinish}">
+    <h3>
+        <div class="icon-group">
+            <fa-icon [icon]="faCheck" [ngStyle]="{ color: 'limegreen' }" (click)="completedTask()"></fa-icon>
+            <fa-icon [icon]="faClock" (click)="toggleTask()"></fa-icon>
+        </div>
+        {{ task.title }}
+        <div class="icon-group">
+            <fa-icon [icon]="faWrench"
+            (click)="editTask()"
+            ></fa-icon>
+            <fa-icon [icon]="faTimes" [ngStyle] ="{ color: 'red' }" (click)="deleteTask()"></fa-icon>
+        </div>
+        </h3>
+    <p>
+      <i>{{ task.date }} at {{ task.time }}</i>
+      <i>{{ priority }}</i>
+      <i>{{ location }}</i>
+      <i>{{ task.taskType }}</i>
+    </p>
+</div>

@@ -1,0 +1,36 @@
+<table>
+  <tr>
+    <th>task_id</th>
+    <th>task_title</th>
+    <th>date</th>
+    <th>time</th>
+    <th>task_type</th>
+    <th>task_status</th>
+    <th>priority</th>
+    <th>location</th>
+  </tr>
+  <tr *ngFor="let personalTask of personalTasks">
+    <td>{{ personalTask.id }}</td>
+    <td>{{ personalTask.title }}</td>
+    <td>{{ personalTask.date }}</td>
+    <td>{{ personalTask.time }}</td>
+    <td>{{ personalTask.taskType }}</td>
+    <td>{{ personalTask.taskStatus }}</td>
+    <td>null</td>
+    <td>{{ personalTask.location }}</td>
+  </tr>
+  <tr *ngFor="let workTask of workTasks">
+    <td>{{ workTask.id }}</td>
+    <td>{{ workTask.title }}</td>
+    <td>{{ workTask.date }}</td>
+    <td>{{ workTask.time }}</td>
+    <td>{{ workTask.taskType }}</td>
+    <td>{{ workTask.taskStatus }}</td>
+    <td>{{ workTask.priority }}</td>
+    <td>null</td>
+  </tr>
+
+
+
+
+</table>

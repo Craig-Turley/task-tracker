@@ -1,0 +1,41 @@
+commit 5b83abe10a0000d923fca27fefc5a2d1574ae8bf
+Author: Craig.Turley <craig.j.turley@gmail.com>
+Date:   Wed Aug 23 16:55:16 2023 -0700
+
+    Cleaned code
+
+commit 868564376d1f47fcc6911ccb5c7352c5e275c9a2
+Author: Craig.Turley <craig.j.turley@gmail.com>
+Date:   Wed Aug 23 09:44:11 2023 -0700
+
+    Back up.
+
+commit 76a5f752aa5877a6fb8f22aa2e0ae2a0375d6dc6
+Author: Craig.Turley <craig.j.turley@gmail.com>
+Date:   Mon Aug 21 18:27:10 2023 -0700
+
+    Part D. Adds Test scripts for Angular front end using Karma and Jasmin
+
+commit 486a83512067abc726d4c3bb2d255969a437ab13
+Author: Craig Turley <cturle4@wgu.edu>
+Date:   Sat Aug 19 18:17:28 2023 +0000
+
+    Delete demo__5_.zip
+
+commit 51ee9d6b7119ae61dcfd4098036508fb2173eea9
+Author: Craig.Turley <craig.j.turley@gmail.com>
+Date:   Sat Aug 19 10:54:14 2023 -0700
+
+    Adds Files
+
+commit ef963d22abc618eb526dad46ccaa233777cc1e8b
+Author: Craig.Turley <craig.j.turley@gmail.com>
+Date:   Sat Aug 19 10:19:02 2023 -0700
+
+    Initial Commit: Adds Files
+
+commit 0cd008a7360ed48a7f3c673113ad5473daa2d3e0
+Author: Craig Turley <cturle4@wgu.edu>
+Date:   Sat Aug 19 17:54:04 2023 +0000
+
+    Upload New File

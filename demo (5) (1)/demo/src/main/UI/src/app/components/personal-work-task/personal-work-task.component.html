@@ -1,0 +1,13 @@
+<div class="header" *ngIf="filterByType">
+  <h2>Work Tasks</h2>
+  <app-task-item
+    *ngFor="let workTask of workTasks"
+    [task]="workTask">
+  </app-task-item>
+  <hr>
+  <h2>Personal Tasks</h2>
+  <app-task-item
+    *ngFor="let personalTask of personalTasks"
+    [task]="personalTask">
+  </app-task-item>
+</div>

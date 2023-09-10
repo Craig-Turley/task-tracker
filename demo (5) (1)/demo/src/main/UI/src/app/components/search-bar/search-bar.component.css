@@ -1,0 +1,21 @@
+.search {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.search input, div{
+    display: inline;
+}
+
+.search-bar {
+    border-radius: 10px;
+    height: 50px;
+    width: 47%;
+}
+
+.search input::content {
+    text-align: left;
+    padding-left: 15px;
+}
+
